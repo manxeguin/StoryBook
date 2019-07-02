@@ -1,5 +1,3 @@
-import jss from 'jss';
-import preset from 'jss-preset-default';
 import styles from './Button.scss';
 
 

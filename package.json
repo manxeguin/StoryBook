@@ -14,8 +14,6 @@
     "babel-loader": "^8.0.6"
   },
   "dependencies": {
-    "jss": "^9.8.7",
-    "jss-preset-default": "^4.5.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0"
   }
