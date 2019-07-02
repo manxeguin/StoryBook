@@ -1,7 +1,5 @@
-import {
-    Button
-} from 'components/Button/Button.js';
+import Button from './components/Button/Button.js';
 
-module.exports = {
+export {
     Button,
 }

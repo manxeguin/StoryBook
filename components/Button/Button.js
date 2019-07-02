@@ -23,7 +23,6 @@ export default class Button {
     }
 
     render() {
-        debugger;
         return `
             <button class='${styles.btn} ${styles[this.color]}' ${this.status}>${this.text}</button>
         `;
