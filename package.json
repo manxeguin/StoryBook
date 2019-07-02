@@ -1,0 +1,22 @@
+{
+  "name": "odf-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook"
+  },
+  "author": "oscar.bellon",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@storybook/html": "^5.1.9",
+    "babel-loader": "^8.0.6"
+  },
+  "dependencies": {
+    "jss": "^9.8.7",
+    "jss-preset-default": "^4.5.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0"
+  }
+}
