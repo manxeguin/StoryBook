@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "build": "build-storybook -c .storybook -o ./docs"
   },
   "author": "oscar.bellon",
   "license": "MIT",
@@ -14,6 +15,12 @@
     "babel-loader": "^8.0.6"
   },
   "dependencies": {
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-info": "^5.1.9",
+    "@storybook/addon-knobs": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addon-notes": "^5.1.9",
+    "@storybook/addon-storysource": "^5.1.9",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0"
   }

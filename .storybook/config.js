@@ -1,7 +1,7 @@
 import { configure } from '@storybook/html';
 
 function loadStories() {
-  require('../stories/index.js');
+  require('../stories/button.stories');
 }
 
 configure(loadStories, module);
