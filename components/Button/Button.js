@@ -1,5 +1,3 @@
-import jss from 'jss';
-import preset from 'jss-preset-default';
 import styles from './Button.scss';
 
 
@@ -25,7 +23,6 @@ export default class Button {
     }
 
     render() {
-        debugger;
         return `
             <button class='${styles.btn} ${styles[this.color]}' ${this.status}>${this.text}</button>
         `;

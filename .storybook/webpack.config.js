@@ -2,7 +2,7 @@ module.exports = {
     module: {
       rules: [
         {
-          test: /\.scss$/,
+          test: /(\.scss|\.css)$/,
           loaders: [
             require.resolve('style-loader'),
             {
@@ -16,6 +16,11 @@ module.exports = {
             require.resolve('sass-loader')
           ],
         },
+        {
+          test: /\.stories.js$/,
+          loaders: [require.resolve('@storybook/addon-storysource/loader')],
+          enforce: 'pre',
+        }
       ],
     },
   }

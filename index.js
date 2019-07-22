@@ -1,7 +1,7 @@
-import {
-    Button
-} from 'components/Button/Button';
+import Button from './components/Button/Button.js';
+import Hamburger from './components/Hamburger/Hamburger.js';
 
-module.exports = {
+export {
     Button,
+    Hamburger,
 }
